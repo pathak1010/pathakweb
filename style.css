@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+body {
+    line-height: 1.7em;
+    margin: auto;
+}
+
+.navbar-items{
+    margin: auto;
+    max-width: 1100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.text-highlight {
+    color: #800080;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    background: #800080;
+    padding: 15px 20px;
+    margin-top: 20px;
+}
+
+.btn-2 {
+    max-width: 20%;
+    
+}
+
+.btn:hover {
+    background-color: #870090;
+    color: #f7c08a;
+}
+
+.bg-primary {
+    background: #bab7c0;
+    max-width: 1100px;
+    height: 70px;
+    margin: auto;
+    padding-bottom: 10px;
+}
+#navbar a {
+    padding: 20px 0px;
+    color: #fff;
+    cursor: pointer;
+}
+
+#navbar {
+    background-color: #9b83b7;
+    overflow: auto;
+    position: sticky;
+    top: 0;
+}
+
+#navbar .navbar-items a.heading {
+    font-size: 20px;
+    position: sticky;
+    /* display: flex;
+    align-items: center; */
+}
+#navbar h1 {
+    float: left;
+    padding-top: 20px;
+    margin-left: 20px;
+}
+#navbar ul {
+    float: right;
+    list-style: none;
+}
+#navbar ul li {
+    float: left;
+}
+#navbar ul li a {
+    display: block;
+    padding: 20px;
+}
+
+#navbar ul li a:hover, #navbar ul li a.current {
+    color: #f7c08a;
+    background-color: #870090;
+}
+
+/* Showcase */
+
+.showcase-content {
+    background: url(./img/bts_wallpaper.jpg) no-repeat center center/cover; 
+    height: 800px;
+}
+
+.showcase-content {
+    color: #fff;
+    text-align: center;
+    padding-top: 170px;
+}
+
+.showcase-content h1 {
+    font-size: 60px;
+    line-height: 1.2em;
+}
+
+.showcase-content p {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.intro h1 {
+    padding: 20px 20px;
+    text-align: center;
+}
+
+.intro-lines li {
+    line-height: 1.7em;
+    padding-left: 100px;
+}
+
+#home-info {
+    height: 600px;
+}
+#home-info .image {
+    float: left;
+    background: url(./img/ocean.jpg) no-repeat;
+    width: 50%;
+    min-height: 100%;
+}
+
+#home-info .content {
+    text-align: center;
+    padding: 20px 20px;
+    background-color: #9370DB;
+    height: 600px;
+}
+
+#home-info .content p {
+    margin-top: 100px;
+}
+
+.container {
+    background: url(./img/medium-bts-army-logo-collection-music-themed-exclusive-original-imagbkjafkkeq8vc.webp) no-repeat center;
+    object-position: center;
+
+}
+
+.members img {
+    width: 70px;
+    height: 70px;
+    float: left;
+    margin-right: 10px;
+    object-fit: cover;
+    
+}
+
+.main-heading h1 {
+    text-align: center;
+    color: #333;
+    padding: 20px 20px;
+    font-size: 40px;
+}
+
+.members {
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.members p {
+    align-items: center;
+    padding: 10px 10px;
+    margin-left: 20px;
+}
+
+#video-info {
+    
+}
+
+#video-info .videos1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    float: left;
+    background: #9370DB;
+    padding: 20px 20px;
+    height: 400px;
+    width: 50%;
+    background-image: url(./img/micdrop.jpg);
+    color: #fff;
+}
+
+#video-info .videos1 .btn-2 {
+    align-items: center;
+
+}
+#video-info .videos2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    background: #9370DB;
+    float: right;
+    padding: 20px 20px;
+    height: 400px;
+    width: 50%;
+    background-image: url(./img/springday.jfif);
+    color: #fff;
+}
+#video-info .videos3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    background: #9370DB;
+    float: left;
+    padding: 20px 20px;
+    height: 400px;
+    width: 50%;
+    background: url(./img/fakelove.jpg) no-repeat center center/cover;
+    color: #fff;
+}
+#video-info .videos4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    background: #9370DB;
+    float: right;
+    padding: 20px 20px;
+    height: 400px;
+    width: 50%;
+    background: url(./img/rbts.webp) no-repeat center center/cover;
+    color: #fff;
+}
