@@ -21,6 +21,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 }
 .text-highlight {
     color: #800080;
@@ -36,8 +37,7 @@ body {
 }
 
 .btn-2 {
-    max-width: 20%;
-    
+    max-width: 20%;  
 }
 
 .btn:hover {
@@ -71,11 +71,7 @@ body {
     /* display: flex;
     align-items: center; */
 }
-#navbar h1 {
-    float: left;
-    padding-top: 20px;
-    margin-left: 20px;
-}
+
 #navbar ul {
     float: right;
     list-style: none;
@@ -86,6 +82,7 @@ body {
 #navbar ul li a {
     display: block;
     padding: 20px;
+    margin: 0px 5px;
 }
 
 #navbar ul li a:hover, #navbar ul li a.current {
@@ -147,12 +144,16 @@ body {
     margin-top: 100px;
 }
 
-.container {
+.container-members {
     background: url(./img/medium-bts-army-logo-collection-music-themed-exclusive-original-imagbkjafkkeq8vc.webp) no-repeat center;
     object-position: center;
 
 }
-
+.container-member {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
 .members img {
     width: 70px;
     height: 70px;
@@ -169,19 +170,106 @@ body {
     font-size: 40px;
 }
 
-.members {
-    margin-bottom: 20px;
-    color: #fff;
+.member1, .member3, .member5, .member7 {
+    display: flex;
+    padding: 20px 20px;
+    align-items: center;
+    object-fit: cover;
 }
-
-.members p {
+.member1 img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.member3 img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.member5 img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.member7 img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.member2 img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.member4 img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.member6 img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.member1 p {
+    display: block;
     align-items: center;
     padding: 10px 10px;
     margin-left: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.member2 p {
+    display: block;
+    align-items: center;
+    padding: 10px 10px;
+    margin-left: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.member3 p {
+    display: block;
+    align-items: center;
+    padding: 10px 10px;
+    margin-left: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.member4 p {
+    display: block;
+    align-items: center;
+    padding: 10px 10px;
+    margin-left: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.member5 p {
+    display: block;
+    align-items: center;
+    padding: 10px 10px;
+    margin-left: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.member6 p {
+    display: block;
+    align-items: center;
+    padding: 10px 10px;
+    margin-left: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.member7 p {
+    display: block;
+    align-items: center;
+    padding: 10px 10px;
+    margin-left: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.member2, .member4, .member6 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 20px;
+    object-fit: cover;
 }
 
-#video-info {
-    
+.member2, .member4, .member6 {
+    padding-left: 250px 250px;
 }
 
 #video-info .videos1 {

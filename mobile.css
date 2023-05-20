@@ -1,0 +1,81 @@
+#home-info .image {
+    display: none;
+}
+
+#home-info .content {
+    text-align: center;
+    padding: 20px 20px;
+    background-color: #9370DB;
+    width: 100%;
+}
+.btn-2 {
+    max-width: 50%;  
+    margin-top: 50px;
+}
+
+.member1, .member3, .member5, .member7 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.member2, .member4, .member6 {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+
+#video-info .videos1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    float: none;
+    background: #9370DB;
+    padding: 20px 20px;
+    width: 100%;
+    background-image: url(./img/micdrop.jpg);
+    object-fit: cover;
+    color: #fff;
+}
+
+#video-info .videos2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    background: #9370DB;
+    float: none;
+    padding: 20px 20px;
+    width: 100%;
+    background-image: url(./img/springday.jfif);
+    color: #fff;
+}
+#video-info .videos3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    background: #9370DB;
+    float: none;
+    padding: 20px 20px;
+    width: 100%;
+    background: url(./img/fakelove.jpg) no-repeat center center/cover;
+    color: #fff;
+}
+#video-info .videos4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    background: #9370DB;
+    float: none;
+    padding: 20px 20px;
+    width: 100%;
+    background: url(./img/rbts.webp) no-repeat center center/cover;
+    color: #fff;
+}
