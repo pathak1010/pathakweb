@@ -13,6 +13,7 @@ a {
 body {
     line-height: 1.7em;
     margin: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .navbar-items{
@@ -162,6 +163,7 @@ body {
     object-fit: cover;
     
 }
+
 
 .main-heading h1 {
     text-align: center;
@@ -333,3 +335,31 @@ body {
     background: url(./img/rbts.webp) no-repeat center center/cover;
     color: #fff;
 }
+
+
+.vid1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.vid1 img {
+    max-width: 1600px;
+    height: 380px;
+    width: 380px;
+    object-fit: cover;
+    display: flex;
+    justify-content: space-between;
+    transition: all ease 300ms;
+    
+}
+
+.vid1 img:hover {
+    transform: scale(1.3);
+    border-radius: 50px;
+    place-items: cemter;
+}
+
+
